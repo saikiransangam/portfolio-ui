@@ -1,0 +1,56 @@
+.login-page {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .login-page h2 {
+    margin-bottom: 10px;
+  }
+  
+  .login-page p {
+    margin-bottom: 20px;
+  }
+  
+  .login-page form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .login-page label {
+    text-align: left;
+  }
+  
+  .login-page input[type="email"],
+  .login-page input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .actions a {
+    color: purple;
+    text-decoration: none;
+  }
+  
+  .login-page button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-page .google-btn {
+    background-color: white;
+    color: black;
+    border: 1px solid #ddd;
+  }
+  

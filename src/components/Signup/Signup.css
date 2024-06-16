@@ -1,0 +1,45 @@
+.signup-page {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .signup-page h2 {
+    margin-bottom: 10px;
+  }
+  
+  .signup-page p {
+    margin-bottom: 20px;
+  }
+  
+  .signup-page form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .signup-page label {
+    text-align: left;
+  }
+  
+  .signup-page input[type="email"],
+  .signup-page input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .signup-page button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .signup-page .google-btn {
+    background-color: white;
+    color: black;
+    border: 1px solid #ddd;
+  }
+  

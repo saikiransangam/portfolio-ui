@@ -1,0 +1,41 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    color: white;
+  }
+  
+  .header .logo {
+    font-size: 1.5rem;
+  }
+  
+  .header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .header nav ul li {
+    cursor: pointer;
+  }
+  
+  .auth-links {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .login-btn, .signup-btn {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .signup-btn {
+    background-color: purple;
+    border-color: purple;
+  }
+  

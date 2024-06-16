@@ -1,0 +1,21 @@
+.main {
+    padding: 20px;
+  }
+  
+  .intro {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .features {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+  }
+  
+  .feature-details {
+    display: flex;
+    justify-content: space-around;
+  }
+  
